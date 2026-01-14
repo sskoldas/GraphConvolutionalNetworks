@@ -1,0 +1,24 @@
+name: microbiome-ml
+channels:
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - torch==2.9.1
+      - torchvision==0.24.1
+      - torch-geometric==2.7.0
+      - triton==3.5.1
+      - numpy==1.26.4
+      - scipy==1.15.1
+      - pandas==2.1.0
+      - scikit-learn==1.6.1
+      - imbalanced-learn==0.14.0
+      - captum==0.8.0
+      - matplotlib==3.10.7
+      - seaborn==0.13.2
+      - networkx==3.4.2
+      - plotly==4.9.0
+      - tqdm==4.67.1
+      - joblib==1.4.2
